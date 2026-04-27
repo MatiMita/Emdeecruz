@@ -28,6 +28,11 @@ const translations = {
         'mira': 'Mira',
         'video_title': 'Nuestro video',
         'video_subtitle': 'De los mejores resultados',
+        'por_que_elegirnos': 'Por que elegirnos?',
+        'por_que_elegirnos_desc': 'Somos su aliado tecnico para estructurar, sustentar y ejecutar proyectos de caminos con criterios de rentabilidad, seguridad y cumplimiento normativo.',
+        'por_que_elegirnos_p1': 'Ingenieria aplicada para estudios, metrados, presupuestos y expedientes tecnicos.',
+        'por_que_elegirnos_p2': 'Soporte especializado para licitaciones, fiscalizacion y control de calidad en obra.',
+        'por_que_elegirnos_p3': 'Gestion integral del proyecto: desde la planificacion hasta la entrega operativa.',
         
         // Team
         'personal_profesional': 'Personal Profesional',
@@ -70,12 +75,17 @@ const translations = {
         'producto_3': 'Producto 3',
         'producto_4': 'Producto 4',
         'producto_5': 'Producto 5',
+        'producto_1_desc': 'Planificacion y consultoria para apertura y mejoramiento de caminos rurales.',
+        'producto_2_desc': 'Diagnostico tecnico de vias con propuestas para seguridad, drenaje y durabilidad.',
+        'producto_3_desc': 'Supervision de obra en campo con control de calidad y cumplimiento de plazos.',
+        'producto_4_desc': 'Asesoria para mantenimiento preventivo y correctivo de corredores viales.',
+        'producto_5_desc': 'Gestion integral de proyectos de caminos para municipios, empresas y comunidades.',
         
         // Call to Action
         'profesionales_capacitados': 'Profesionales Capacitados',
         'soluciones_eficientes': 'Soluciones Eficientes',
         'ver_productos': 'ver Productos',
-        'espacio_publicitar': 'Espacio para publicitar a la empresa y hacer conocer un poco mas de sus servicios',
+        'espacio_publicitar': 'TKN S.R.L. nació a finales de 2022 en La Paz, Bolivia, bajo el respaldo internacional de RED SHIELD Enterprises & Busines SAC. Inspirados por la fuerza y el poder del fuego, nos establecemos como un operador estratégico capaz de integrar capital, especialidad técnica y visión de negocio. Con presencia en La Paz y Cochabamba, nuestra misión es transformar desafíos complejos en casos de éxito mediante una gestión liderada por expertos en operaciones y gerencia general.',
         
         // Contacto página
         'habla_nosotros': 'Habla con nosotros',
@@ -90,7 +100,7 @@ const translations = {
         'visitamos': 'Visitanos',
         'enviamos_email_text': 'Enviamos Email',
         'centro_llamadas_text': 'Centro de Llamadas',
-        'calle_principal': 'Calle Principal #123, Ciudad',
+        'calle_principal': 'AV PANDO, EDIFICIO VIEW',
         
         // Search
         'buscar_aqui': 'Buscar Aquí...',
@@ -122,6 +132,11 @@ const translations = {
         'mira': 'Watch',
         'video_title': 'Our video',
         'video_subtitle': 'From the best results',
+        'por_que_elegirnos': 'Why choose us?',
+        'por_que_elegirnos_desc': 'We are your technical partner to structure, support, and deliver road projects with profitability, safety, and regulatory compliance.',
+        'por_que_elegirnos_p1': 'Applied engineering for studies, quantity takeoffs, budgets, and technical dossiers.',
+        'por_que_elegirnos_p2': 'Specialized support for bidding processes, inspection, and on-site quality control.',
+        'por_que_elegirnos_p3': 'End-to-end project management from planning through operational handover.',
         
         // Team
         'personal_profesional': 'Professional Staff',
@@ -164,12 +179,17 @@ const translations = {
         'producto_3': 'Product 3',
         'producto_4': 'Product 4',
         'producto_5': 'Product 5',
+        'producto_1_desc': 'Planning and consulting for opening and improving rural roads.',
+        'producto_2_desc': 'Technical road diagnostics with proposals for safety, drainage, and durability.',
+        'producto_3_desc': 'On-site work supervision with quality control and schedule compliance.',
+        'producto_4_desc': 'Advisory services for preventive and corrective maintenance of road corridors.',
+        'producto_5_desc': 'Comprehensive road project management for municipalities, companies, and communities.',
         
         // Call to Action
         'profesionales_capacitados': 'Trained Professionals',
         'soluciones_eficientes': 'Efficient Solutions',
         'ver_productos': 'view Products',
-        'espacio_publicitar': 'Space to advertise the company and make known a little more about its services',
+        'espacio_publicitar': 'TKN S.R.L. was founded in late 2022 in La Paz, Bolivia, with international backing from RED SHIELD Enterprises & Busines SAC. Inspired by the strength and power of fire, we position ourselves as a strategic operator capable of integrating capital, technical specialization, and business vision. With presence in La Paz and Cochabamba, our mission is to transform complex challenges into success stories through management led by experts in operations and general management.',
         
         // Contact page
         'habla_nosotros': 'Talk to us',
@@ -184,7 +204,7 @@ const translations = {
         'visitamos': 'Visit Us',
         'enviamos_email_text': 'Send Email',
         'centro_llamadas_text': 'Call Center',
-        'calle_principal': 'Main Street #123, City',
+        'calle_principal': 'AV PANDO, EDIFICIO VIEW',
         
         // Search
         'buscar_aqui': 'Search Here...',

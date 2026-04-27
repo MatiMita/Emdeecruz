@@ -1,9 +1,13 @@
 .call-to-action {
   overflow: hidden;
-  background-color: $thm-base;
+  background: linear-gradient(135deg, #1a1a1a 0%, #111111 55%, #080808 100%);
   padding-top: 80px;
   padding-bottom: 80px;
   position: relative;
+
+  .row {
+    align-items: center;
+  }
 
   @include laptop {
     padding-top: 0;
@@ -20,9 +24,9 @@
     top: 60px;
     right: 150px;
     font-size: 80px;
-    color: $thm-black;
+    color: #fff;
     font-family: 'Homemade Apple', cursive;
-    opacity: 0.1;
+    opacity: 0.14;
 
     @include laptop {
       display: block;
@@ -30,13 +34,20 @@
   }
 
   &__image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     max-width: 100%;
     margin-bottom: 50px;
 
     @include laptop {
-      max-width: none;
+      width: 120%;
+      max-width: 120%;
       margin-bottom: 0;
-      float: right;
+      float: none;
+      position: relative;
+      left: 50%;
+      transform: translateX(-50%);
     }
   }
 
@@ -116,13 +127,14 @@
   }
 
   .thm-btn {
-    background-color: $thm-black;
+    background-color: rgba($color: #fff, $alpha: .08);
+    border: 1px solid rgba($color: #fff, $alpha: .45);
     color: #fff;
     padding: 18px 51px;
 
     &:hover {
-      background-color: #fff;
-      color: $thm-black;
+      background-color: rgba($color: #fff, $alpha: .18);
+      color: #fff;
     }
   }
 }

@@ -1634,6 +1634,16 @@
     background-size: cover;
     padding: 30px;
     position: relative;
+    overflow: hidden;
+
+    &::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(130deg, rgba(8, 8, 8, 0.78) 0%, rgba(20, 20, 20, 0.56) 55%, rgba(0, 0, 0, 0.38) 100%);
+      z-index: 1;
+      pointer-events: none;
+    }
 
     &::before {
       content: '';
@@ -1643,6 +1653,12 @@
       right: 10px;
       bottom: 10px;
       border: 1px solid #ffffff;
+      z-index: 3;
+    }
+
+    >* {
+      position: relative;
+      z-index: 2;
     }
 
     @include large-tablet {
@@ -1656,7 +1672,7 @@
       margin: 0;
       font-size: 30px;
       font-weight: 300;
-      color: $thm-black;
+      color: #fff;
       line-height: 1;
 
       @include laptop {
@@ -1696,7 +1712,7 @@
     p {
       font-size: 16px;
       line-height: 1px;
-      color: $thm-color;
+      color: rgba(255, 255, 255, 0.9);
       margin-top: 30px;
       margin-bottom: 35px;
       font-weight: 400;
