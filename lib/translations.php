@@ -12,15 +12,15 @@ $translations = [
         'phone' => 'Teléfono',
         
         // Inicio
-        'main_title' => 'TKN',
+        'main_title' => 'Emdeecruz',
         'main_subtitle' => 'Texto de ejemplo',
         
         // About
         'nosotros' => 'Nosotros',
-        'about_title' => 'TKN',
+        'about_title' => 'Emdeecruz',
         'about_description' => 'Aqui se puede describir a la empresa o negocio',
         'empresa_segura' => 'Empresa segura y confiable',
-        'empresa_segura_desc' => 'TKN',
+        'empresa_segura_desc' => 'Emdeecruz',
         'servicios_altura' => 'Servicios a la altura',
         'servicios_altura_desc' => 'A su alcance para todos',
         
@@ -37,21 +37,21 @@ $translations = [
         // Navigation
         'inicio' => 'Home',
         'quienes_somos' => 'About Us',
-        'productos' => 'Products',
+        'productos' => 'Services',
         'contactos' => 'Contact',
         'email' => 'Email',
         'phone' => 'Phone',
         
         // Home
-        'main_title' => 'TKN',
+        'main_title' => 'Emdeecruz',
         'main_subtitle' => 'Example text',
         
         // About
         'nosotros' => 'About Us',
-        'about_title' => 'TKN',
+        'about_title' => 'Emdeecruz',
         'about_description' => 'Here you can describe the company or business',
         'empresa_segura' => 'Safe and reliable company',
-        'empresa_segura_desc' => 'TKN',
+        'empresa_segura_desc' => 'Emdeecruz',
         'servicios_altura' => 'Quality services',
         'servicios_altura_desc' => 'At your reach for everyone',
         

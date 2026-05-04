@@ -16,12 +16,12 @@
     position: relative;
     z-index: 10;
     padding-top: 120px;
-    padding-bottom: 120px;
+    padding-bottom: 60px;
     text-align: center;
 
     @media (max-width: 480px) {
       padding-top: 80px;
-      padding-bottom: 80px;
+      padding-bottom: 60px;
     }
 
     h2 {
