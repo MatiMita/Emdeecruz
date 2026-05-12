@@ -10,13 +10,13 @@
   width: 58px;
   height: 58px;
   border: 0;
-  border-radius: 50%;
+  border-radius: 12px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(180deg, #0a7d58 0%, #05563d 100%);
+  background: transparent;
   color: #ffffff;
-  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.35);
+  box-shadow: none;
   cursor: pointer;
   padding: 0;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
@@ -26,8 +26,9 @@
   width: 58px;
   height: 58px;
   object-fit: cover;
-  border-radius: 50%;
+  border-radius: 12px;
   display: block;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
 }
 
 .emde-chatbot__hint {
@@ -62,7 +63,10 @@
 
 .emde-chatbot__toggle:hover {
   transform: translateY(-2px);
-  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.4);
+}
+
+.emde-chatbot__toggle:hover .emde-chatbot__toggle-image {
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.35);
 }
 
 .emde-chatbot__toggle:focus-visible,

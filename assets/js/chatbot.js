@@ -116,7 +116,7 @@
     }
 
     if (payload && typeof payload === "object") {
-      var fields = ["reply", "response", "message", "text", "answer", "output"];
+      var fields = ["respuesta", "reply", "response", "message", "text", "answer", "output"];
       for (var i = 0; i < fields.length; i += 1) {
         var value = payload[fields[i]];
         if (typeof value === "string" && value.trim()) {
